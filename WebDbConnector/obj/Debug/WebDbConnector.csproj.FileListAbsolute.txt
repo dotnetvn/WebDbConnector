@@ -1,0 +1,6 @@
+E:\congdongdotnet\WebDbConnector\WebDbConnector\bin\Debug\WebDbConnector.dll
+E:\congdongdotnet\WebDbConnector\WebDbConnector\bin\Debug\WebDbConnector.pdb
+E:\congdongdotnet\WebDbConnector\WebDbConnector\obj\Debug\WebDbConnector.dll
+E:\congdongdotnet\WebDbConnector\WebDbConnector\obj\Debug\WebDbConnector.pdb
+E:\congdongdotnet\WebDbConnector\WebDbConnector\bin\Debug\EntityFramework.dll
+E:\congdongdotnet\WebDbConnector\WebDbConnector\bin\Debug\EntityFramework.xml
