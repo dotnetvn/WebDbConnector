@@ -13,20 +13,24 @@ If okay, then you can install it directly via following ways:
 ### Samples
 Use the WebDbConnector for the ADO.Net SqlConnection:
 ```c#
-// The first parameter of SqlWebDbConnector is connection string or connection string name(in Web.config)
-var context = new WebDbConnectorContext<SqlConnection>(new SqlWebDbConnector("Test", true));
+// The first parameter of SqlWebDbConnector is connection string
+// or connection string name(in Web.config)
+var context = new WebDbConnectorContext<SqlConnection>(
+    new SqlWebDbConnector("Test", true));
 var sqlContext = context.GetCurrentContext();
 // TODO: write your own code
 ```
 Use the WebDbConnector for the Linq To Sql DataContext:
 ```c#
-var context = new WebDbConnectorContext<DataContext>(new LinqToSqlWebDbConnector(new TestDataContext()));
+var context = new WebDbConnectorContext<DataContext>(
+    new LinqToSqlWebDbConnector(new TestDataContext()));
 var dataContext = context.GetCurrentContext() as TestDataContext;
 // TODO: write your own code
 ```
 Use the WebDbConnector for the Entity Framework DbContext:
 ```c#
-var context = new WebDbConnectorContext<DbContext>(new EntityFrameworkNewWebDbConnector(new TestEntities()));
+var context = new WebDbConnectorContext<DbContext>(
+    new EntityFrameworkNewWebDbConnector(new TestEntities()));
 var dbContext = context.GetCurrentContext() as TestEntities;
 // TODO: write your own code
 ```
