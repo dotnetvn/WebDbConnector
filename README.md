@@ -8,7 +8,7 @@ In order to use this library, your application needs to meet these following cri
 
 If okay, then you can install it directly via following ways:
 * Via Nuget: ``` Install-Package WebDbConnector ```
-* Via Github: ``` git clone https://github.com/congdongdotnet/WebDbConnector/WebDbConnector.git ```
+* Via Github: ``` git clone https://github.com/congdongdotnet/WebDbConnector.git ```
 
 ### Samples
 Use the WebDbConnector for the ADO.Net SqlConnection:
