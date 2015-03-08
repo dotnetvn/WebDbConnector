@@ -16,7 +16,7 @@
 		/// <param name="e">Event data</param>
 		protected virtual void Application_EndRequest(object sender, EventArgs e)
 		{
-			var webDbConnectorContext = HttpContext.Current.Items[WebDbConnectorOptions.WrapperContextKey] as WebDbConnectorContext<Object>;
+			var webDbConnectorContext = HttpContext.Current.Items[WebDbConnectorOptions.WrapperContextKey] as IDisposable;
 			if (webDbConnectorContext != null)
 			{
 				webDbConnectorContext.Dispose();

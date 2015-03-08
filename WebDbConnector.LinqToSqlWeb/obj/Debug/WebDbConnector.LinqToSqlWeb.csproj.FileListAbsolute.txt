@@ -1,0 +1,10 @@
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\obj\Debug\WebDbConnector.LinqToSqlWeb.csprojResolveAssemblyReference.cache
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\bin\WebDbConnector.LinqToSqlWeb.dll.config
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\bin\WebDbConnector.LinqToSqlWeb.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\bin\WebDbConnector.LinqToSqlWeb.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\bin\WebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\bin\EntityFramework.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\bin\WebDbConnector.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\bin\EntityFramework.xml
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\obj\Debug\WebDbConnector.LinqToSqlWeb.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.LinqToSqlWeb\obj\Debug\WebDbConnector.LinqToSqlWeb.pdb

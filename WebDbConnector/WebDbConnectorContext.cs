@@ -8,7 +8,7 @@
 	/// Use it to change any connection type...
 	/// </summary>
 	/// <typeparam name="T">class type</typeparam>
-	public class WebDbConnectorContext<T> where T: class
+	public class WebDbConnectorContext<T> : IDisposable where T: class
 	{
 		/// <summary>
 		/// Gets or sets the IWebDbConnector field.

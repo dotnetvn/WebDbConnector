@@ -27,7 +27,7 @@
 		private bool _disposed;
 
 		/// <summary>
-		/// Initializes a new instance of the <see cref="T:WebDbConnector.AdoNetWebDbConnector"/> class by the specified connection string and enable to get the connection string from the configuration file.
+		/// Initializes a new instance of the <see cref="T:WebDbConnector.SqlWebDbConnector"/> class by the specified connection string and enable to get the connection string from the configuration file.
 		/// </summary>
 		/// <param name="connectionString">database connection string</param>
 		/// <param name="getInConfig">specify the connection string should be get in the configuration file(app.conf or web.conf)</param>
@@ -48,7 +48,7 @@
 		}
 
 		/// <summary>
-		/// Initializes a new instance of the <see cref="T:WebDbConnector.AdoNetWebDbConnector"/> class by the specified connection
+		/// Initializes a new instance of the <see cref="T:WebDbConnector.SqlWebDbConnector"/> class by the specified connection
 		/// string, context key and enable to get the connection string from the configuration file.
 		/// </summary>
 		/// <param name="connectionString">database connection string.</param>

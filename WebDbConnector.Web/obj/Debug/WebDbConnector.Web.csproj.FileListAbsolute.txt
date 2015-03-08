@@ -1,0 +1,10 @@
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\bin\WebDbConnector.Web.dll.config
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\bin\WebDbConnector.Web.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\bin\WebDbConnector.Web.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\bin\WebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\bin\EntityFramework.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\bin\WebDbConnector.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\bin\EntityFramework.xml
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\obj\Debug\WebDbConnector.Web.csprojResolveAssemblyReference.cache
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\obj\Debug\WebDbConnector.Web.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.Web\obj\Debug\WebDbConnector.Web.pdb

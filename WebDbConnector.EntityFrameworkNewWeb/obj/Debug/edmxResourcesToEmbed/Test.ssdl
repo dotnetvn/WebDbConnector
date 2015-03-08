@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Test.dbo.Message' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Content" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Content" Type="nvarchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TestModelStoreContainer">
+    <EntitySet Name="Message" EntityType="Self.Message" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Message].[Id] AS [Id], 
+[Message].[Content] AS [Content]
+FROM [dbo].[Message] AS [Message]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

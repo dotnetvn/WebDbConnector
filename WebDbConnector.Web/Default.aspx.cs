@@ -1,17 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
-namespace WebDbConnector.Web
+﻿namespace WebDbConnector.Web
 {
+	using System;
+	using System.Collections.Generic;
+	using System.Data.SqlClient;
+	using System.Diagnostics;
+	using System.Linq;
+	using System.Web;
+	using System.Web.UI;
+	using System.Web.UI.WebControls;
+
 	public partial class _Default : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			if(!IsPostBack)
+			{
+				var sqlConnection = DatabaseContext.GetCurrentContext();
+				if (sqlConnection != null)
+				{
+					var sqlCommand = new SqlCommand("SELECT * FROM Message", sqlConnection);
+					var sqlReader = sqlCommand.ExecuteReader();
+					gv.DataSource = sqlReader;
+					gv.DataBind();
+					sqlReader.Close();
+				}
+			}
 		}
 	}
 }

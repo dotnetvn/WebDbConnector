@@ -9,7 +9,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+		<asp:Label ID="lb" runat="server"/>
+		<asp:GridView runat="server" AutoGenerateColumns="true" ID="gv"></asp:GridView>
     </div>
     </form>
 </body>
