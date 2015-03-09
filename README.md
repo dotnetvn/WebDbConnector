@@ -1,6 +1,8 @@
 # WebDbConnector
 The WebDbConnector is a .NET library used to create and maintain only an unique connection to the database per request in the Asp.Net web applications.
 
+![Class Diagram of the WebDbConnector Library](http://i.imgur.com/7bsLkuH.png "Class Diagram of the WebDbConnector Library")
+
 ### Install and Requirements
 In order to use this library, your application needs to meet these following criterias:
 * Use for the web applications.
