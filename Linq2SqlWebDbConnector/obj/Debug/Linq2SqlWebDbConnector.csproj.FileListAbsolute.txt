@@ -1,0 +1,7 @@
+D:\cong-dong-dotnet-com\projects\WebDbConnector\Linq2SqlWebDbConnector\obj\Debug\Linq2SqlWebDbConnector.csprojResolveAssemblyReference.cache
+D:\cong-dong-dotnet-com\projects\WebDbConnector\Linq2SqlWebDbConnector\bin\Debug\Linq2SqlWebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\Linq2SqlWebDbConnector\bin\Debug\Linq2SqlWebDbConnector.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\Linq2SqlWebDbConnector\bin\Debug\WebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\Linq2SqlWebDbConnector\bin\Debug\WebDbConnector.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\Linq2SqlWebDbConnector\obj\Debug\Linq2SqlWebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\Linq2SqlWebDbConnector\obj\Debug\Linq2SqlWebDbConnector.pdb

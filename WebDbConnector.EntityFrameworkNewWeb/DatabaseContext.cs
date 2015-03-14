@@ -1,5 +1,6 @@
 ﻿namespace WebDbConnector.EntityFrameworkNewWeb
 {
+	using EfNewWebDbConnector;
 	using System;
 	using System.Collections.Generic;
 	using System.Data.Entity;

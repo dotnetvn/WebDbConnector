@@ -8,3 +8,5 @@ D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.EntityFrameworkNe
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.EntityFrameworkNewWeb\obj\Debug\WebDbConnector.EntityFrameworkNewWeb.csprojResolveAssemblyReference.cache
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.EntityFrameworkNewWeb\obj\Debug\WebDbConnector.EntityFrameworkNewWeb.dll
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.EntityFrameworkNewWeb\obj\Debug\WebDbConnector.EntityFrameworkNewWeb.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.EntityFrameworkNewWeb\bin\EfNewWebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.EntityFrameworkNewWeb\bin\EfNewWebDbConnector.pdb

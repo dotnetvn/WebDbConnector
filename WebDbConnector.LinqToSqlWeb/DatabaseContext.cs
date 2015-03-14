@@ -1,5 +1,6 @@
 ﻿namespace WebDbConnector.LinqToSqlWeb
 {
+	using Linq2SqlWebDbConnector;
 	using System;
 	using System.Collections.Generic;
 	using System.Data.Linq;

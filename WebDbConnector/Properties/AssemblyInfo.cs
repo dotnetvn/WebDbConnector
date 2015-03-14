@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WebDbConnector Library for ASP.Net")]
 [assembly: AssemblyDescription("This library is to create only one connection to the database per request.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Phat Ly")]
+[assembly: AssemblyCompany("CongDongDotNet")]
 [assembly: AssemblyProduct("WebDbConnector Library")]
-[assembly: AssemblyCopyright("Copyright © 2015 by Phat Ly")]
+[assembly: AssemblyCopyright("Copyright © 2015 by CongDongDotNet")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

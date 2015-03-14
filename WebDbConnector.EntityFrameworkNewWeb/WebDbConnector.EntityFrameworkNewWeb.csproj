@@ -126,6 +126,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EfNewWebDbConnector\EfNewWebDbConnector.csproj">
+      <Project>{48a1321e-55c4-46d7-8287-175892c97b61}</Project>
+      <Name>EfNewWebDbConnector</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebDbConnector\WebDbConnector.csproj">
       <Project>{7999c4b9-a340-46e0-8e1b-efd04ffa2452}</Project>
       <Name>WebDbConnector</Name>

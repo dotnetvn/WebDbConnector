@@ -1,0 +1,7 @@
+D:\cong-dong-dotnet-com\projects\WebDbConnector\SqlAdoWebDbConnector\obj\Debug\SqlAdoWebDbConnector.csprojResolveAssemblyReference.cache
+D:\cong-dong-dotnet-com\projects\WebDbConnector\SqlAdoWebDbConnector\bin\Debug\SqlAdoWebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\SqlAdoWebDbConnector\bin\Debug\SqlAdoWebDbConnector.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\SqlAdoWebDbConnector\bin\Debug\WebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\SqlAdoWebDbConnector\bin\Debug\WebDbConnector.pdb
+D:\cong-dong-dotnet-com\projects\WebDbConnector\SqlAdoWebDbConnector\obj\Debug\SqlAdoWebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\SqlAdoWebDbConnector\obj\Debug\SqlAdoWebDbConnector.pdb

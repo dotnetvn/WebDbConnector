@@ -1,7 +1,8 @@
-﻿namespace WebDbConnector
+﻿namespace Linq2SqlWebDbConnector
 {
 	using System.Data.Linq;
 	using System.Web;
+	using WebDbConnector;
 
 	/// <summary>
 	/// This class implements one connection to SQL Server database for per Http Request using Linq To Sql ORM Framework.

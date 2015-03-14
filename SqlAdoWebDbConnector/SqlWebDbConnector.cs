@@ -1,10 +1,11 @@
-﻿namespace WebDbConnector
+﻿namespace SqlAdoWebDbConnector
 {
 	using System;
 	using System.Configuration;
 	using System.Data;
 	using System.Data.SqlClient;
 	using System.Web;
+	using WebDbConnector;
 
 	/// <summary>
 	/// This class implements one connection to SQL Server database for per Http Request using Ado.Net.

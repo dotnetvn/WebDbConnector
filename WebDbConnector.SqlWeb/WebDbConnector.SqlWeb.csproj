@@ -84,6 +84,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SqlAdoWebDbConnector\SqlAdoWebDbConnector.csproj">
+      <Project>{6f81602a-9a0d-4d83-b6f3-83704af5f848}</Project>
+      <Name>SqlAdoWebDbConnector</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebDbConnector\WebDbConnector.csproj">
       <Project>{7999c4b9-a340-46e0-8e1b-efd04ffa2452}</Project>
       <Name>WebDbConnector</Name>

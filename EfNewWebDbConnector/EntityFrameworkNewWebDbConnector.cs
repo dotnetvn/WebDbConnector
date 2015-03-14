@@ -1,7 +1,8 @@
-﻿namespace WebDbConnector
+﻿namespace EfNewWebDbConnector
 {
 	using System.Data.Entity;
 	using System.Web;
+	using WebDbConnector;
 
 	/// <summary>
 	/// This class implements one connection to any database type for per Http Request using Entity Framework DbContext.

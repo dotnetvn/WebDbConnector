@@ -91,6 +91,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Linq2SqlWebDbConnector\Linq2SqlWebDbConnector.csproj">
+      <Project>{d0078b2c-6015-42d1-b43b-6d75ad848397}</Project>
+      <Name>Linq2SqlWebDbConnector</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebDbConnector\WebDbConnector.csproj">
       <Project>{7999c4b9-a340-46e0-8e1b-efd04ffa2452}</Project>
       <Name>WebDbConnector</Name>

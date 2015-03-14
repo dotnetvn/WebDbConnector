@@ -2,9 +2,9 @@ D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\WebDbC
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\WebDbConnector.SqlWeb.dll
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\WebDbConnector.SqlWeb.pdb
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\WebDbConnector.dll
-D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\EntityFramework.dll
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\WebDbConnector.pdb
-D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\EntityFramework.xml
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\obj\Debug\WebDbConnector.SqlWeb.dll
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\obj\Debug\WebDbConnector.SqlWeb.pdb
 D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\obj\Debug\WebDbConnector.SqlWeb.csprojResolveAssemblyReference.cache
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\SqlAdoWebDbConnector.dll
+D:\cong-dong-dotnet-com\projects\WebDbConnector\WebDbConnector.SqlWeb\bin\SqlAdoWebDbConnector.pdb
