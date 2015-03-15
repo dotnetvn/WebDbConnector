@@ -45,7 +45,7 @@ using WebDbConnector;
                     
 public static class DatabaseContext
 {
-    public static DataContext GetCurrentContext()
+    public static TestDataContext GetCurrentContext()
     {
         var context = new WebDbConnectorContext<DataContext>(
             new LinqToSqlWebDbConnector(new TestDataContext()));
@@ -61,7 +61,7 @@ using WebDbConnector;
                     
 public static class DatabaseContext
 {
-    public static ObjectContext GetCurrentContext()
+    public static TestEntities GetCurrentContext()
     {
         var context = new WebDbConnectorContext<ObjectContext>(
                 new EntityFrameworkOldWebDbConnector(new TestEntities()));
@@ -77,7 +77,7 @@ using WebDbConnector;
                     
 public static class DatabaseContext
 {
-    public static DbContext GetCurrentContext()
+    public static TestEntities GetCurrentContext()
     {
         var context = new WebDbConnectorContext<DbContext>(
                 new EntityFrameworkNewWebDbConnector(new TestEntities()));
