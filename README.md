@@ -13,28 +13,77 @@ If okay, then you can install it directly via following ways:
 * Via Github: ``` git clone https://github.com/congdongdotnet/WebDbConnector.git ```
 
 ### Samples
-Use the WebDbConnector for the ADO.Net SqlConnection:
+In order to use the WebDbConnector for the ADO.Net SqlConnection, you should create a new class called __DatabaseContext__. In this class, there is a method named __GetCurrentContext__ to get the current context for your connection:
 ```c#
-// The first parameter of SqlWebDbConnector is connection string
-// or connection string name(in Web.config)
-var context = new WebDbConnectorContext<SqlConnection>(
-    new SqlWebDbConnector("Test", true));
-var sqlContext = context.GetCurrentContext();
-// TODO: write your own code
+using System;
+using System.Data.SqlClient;
+using WebDbConnector;
+                    
+public static class DatabaseContext
+{
+    public static SqlConnection GetCurrentContext()
+    {
+        // The first parameter of SqlWebDbConnector is connection string
+        // or connection string name(in Web.config)
+        var context = new WebDbConnectorContext<SqlConnection>(
+            new SqlWebDbConnector("Test", true));
+        return context.GetCurrentContext();
+    }
+}
 ```
-Use the WebDbConnector for the Linq To Sql DataContext:
+For ADO.Net SqlConnection, we need to close and dipose all resources related to the SqlConnection when ending the request. You only inherit from WebDbConnectorHttpApplication
 ```c#
-var context = new WebDbConnectorContext<DataContext>(
-    new LinqToSqlWebDbConnector(new TestDataContext()));
-var dataContext = context.GetCurrentContext() as TestDataContext;
-// TODO: write your own code
+public class Global : WebDbConnectorHttpApplication
+{
+}
 ```
-Use the WebDbConnector for the Entity Framework DbContext:
+Use the WebDbConnector for the Linq To Sql DataContext, we also create the DatabaseContext class as SqlConnection Ado.Net:
 ```c#
-var context = new WebDbConnectorContext<DbContext>(
-    new EntityFrameworkNewWebDbConnector(new TestEntities()));
-var dbContext = context.GetCurrentContext() as TestEntities;
-// TODO: write your own code
+using System;
+using System.Data.Linq;
+using WebDbConnector;
+                    
+public static class DatabaseContext
+{
+    public static DataContext GetCurrentContext()
+    {
+        var context = new WebDbConnectorContext<DataContext>(
+            new LinqToSqlWebDbConnector(new TestDataContext()));
+        return context.GetCurrentContext() as TestDataContext;
+    }
+}
+```
+Use the WebDbConnector for the Entity Framework ObjectContext, we also create the DatabaseContext class as SqlConnection Ado.Net:
+```c#
+using System;
+using System.Data.Objects;
+using WebDbConnector;
+                    
+public static class DatabaseContext
+{
+    public static ObjectContext GetCurrentContext()
+    {
+        var context = new WebDbConnectorContext<ObjectContext>(
+                new EntityFrameworkOldWebDbConnector(new TestEntities()));
+        return context.GetCurrentContext() as TestEntities;
+    }
+}
+```
+Use the WebDbConnector for the Entity Framework DbContext, we also create the DatabaseContext class as SqlConnection Ado.Net:
+```c#
+using System;
+using System.Data.Entity;
+using WebDbConnector;
+                    
+public static class DatabaseContext
+{
+    public static DbContext GetCurrentContext()
+    {
+        var context = new WebDbConnectorContext<DbContext>(
+                new EntityFrameworkNewWebDbConnector(new TestEntities()));
+        return context.GetCurrentContext() as TestEntities;
+    }
+}
 ```
 
 ### Copyright and License
