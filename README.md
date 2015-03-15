@@ -86,5 +86,9 @@ public static class DatabaseContext
 }
 ```
 
+### Release Notes
+* 1.0.0: support 4 the database types: SqlConnection(Ado.Net), DataContext(Linq To SQL), ObjectContext(EF Old) and DbContext(EF New).
+* 1.1.0: remove 4 the database types and divide them into 4 own libraries on the Nuget([SqlAdoWebDbConnector](https://www.nuget.org/packages/SqlAdoWebDbConnector/), [Linq2SqlWebDbConnector](https://www.nuget.org/packages/Linq2SqlWebDbConnector/), [EfOldWebDbConnector](https://www.nuget.org/packages/EfOldWebDbConnector/) and [EfNewWebDbConnector](https://www.nuget.org/packages/EfNewWebDbConnector/)).
+
 ### Copyright and License
 Copyright 2015 by CongDongDotNet - MIT License
